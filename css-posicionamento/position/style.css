@@ -1,0 +1,43 @@
+
+/* Parte 1
+div{
+  border: 2px solid red;
+  padding: 20px 20px 200px 20px;
+  margin-top: 40px;
+  position: relative;
+}
+
+
+span{
+  background: #e7e7e7;
+  border: 2px solid #ccc;
+  padding: 10px;
+  position: absolute;
+  top: -20px;
+} */
+ 
+h1{
+  margin: 0px;
+  padding: 20px;
+  background: lightblue;
+}
+
+.index1{
+  position: relative;
+  background: greenyellow;
+  top: 20px;
+  z-index: -1;
+}
+
+.index2{
+  position: absolute;
+  background: lightcoral;
+  top: 50px;
+  z-index: 0;
+}
+
+.index3{
+  position: relative;
+  z-index: 999;
+}
+

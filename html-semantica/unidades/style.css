@@ -1,0 +1,15 @@
+body{
+  margin: 0px
+}
+
+section{
+  background: tomato;
+}
+
+div{
+  background-color: lightblue;
+  /* width: 50%; a porcentagem segue a metade da section do pai (Section) */
+  width: calc(100vw - 100px);
+  height: 100vh;
+  /* height: 100vh; */
+}

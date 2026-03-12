@@ -1,0 +1,40 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+[required]{
+  background-color: tomato;
+}
+
+[href^="#"]{
+  border: 2px solid yellowgreen ;
+}
+
+[href$=".br/"]{
+  background-color: aquamarine;
+}
+
+a[href="https://origamid.com/"]{
+  color: brown;
+  text-decoration: none;
+}
+
+/* **************************** */
+
+section > h2{
+  background-color: aquamarine;
+  width: 300px;
+}
+
+article{
+  background-color: lightgreen;
+}
+
+p{
+  margin: 0px;
+}
+
+p + p{ /* O primeiro p não conta */
+  margin-top: 30px;
+  color: darkgreen;
+}

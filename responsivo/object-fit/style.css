@@ -1,0 +1,27 @@
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 960px;
+  margin: 50px auto;
+}
+
+p{
+  font-size: .5rem;
+  max-width: 70ch; /* Faz a quebra de linha sem o texto ficar muito grande na mesma linha*/
+}
+
+.cover img{
+  height: 100%;
+  object-fit: cover; /* Só usar isso quando a imagem fizer sentido cortada */
+  object-position: top right; /* Corte no Topo à Direita */
+}
+
+.texto{
+  align-self: center;
+}

@@ -1,0 +1,75 @@
+a{
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  font-family: Arial;
+  text-decoration: none;
+  background-color: #caf;
+  color:#217;
+  transition: 0.3s;
+}
+
+/* Mouse por cima */
+a:hover{ 
+  background: #adf;
+  color: #147;
+}
+
+/* Quando passa o TAB */
+a:focus{
+  background: #cfa;
+  color: #371;
+  outline: none;
+  border: 2px solid red;
+}
+
+/* Quando clica */
+a:active{
+  background: #ffa;
+  color:#761;
+}
+
+/* Quando foi clicado já uma vez */
+/* a:visited {
+  background-color: #fda;
+  color: #731;
+} */
+
+/* ********************************************************* */
+.lista-1 li:first-child{
+  background:#caf;
+}
+
+.lista-1 li:last-child{
+  background:#cfa;
+}
+
+/* Destaque o terceiro */
+.lista-1 li:nth-child(3){
+  background:#adf;
+}
+
+/* Classifica em pares */
+.lista-2 li:nth-child(even){
+  background:#adf;
+}
+
+/* Classifica em ímpares */
+/* .lista-2 li:nth-child(odd){
+  background:#ffa;
+} */
+
+/* Classifica de 3 em 3*/
+.lista-2 li:nth-child(3n){
+  background:#ffa;
+}
+
+.lista-3 li:not(:first-child, :last-child){
+  background-color: aquamarine;
+}
+
+.lista-4 h2:not(.contato){
+  color: red;
+}
+

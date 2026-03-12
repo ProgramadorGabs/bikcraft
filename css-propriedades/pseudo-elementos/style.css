@@ -1,0 +1,15 @@
+h1::before{
+  content: 'a) ';
+}
+
+h1::after{
+  content: ' (!Importante)';
+}
+
+p::first-line{
+  font-weight: 600;
+}
+
+p::first-letter{
+  font-size: 2rem;
+}

@@ -1,0 +1,9 @@
+/* p{
+  writing-mode: vertical-lr;
+} */
+
+a{
+  display: inline-block; /*Elementos que não permitem ajustes, o inline-block permite. */ 
+  padding: 20px;
+  border: 1px solid teal
+}

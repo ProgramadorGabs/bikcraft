@@ -1,0 +1,115 @@
+/* # Cores
+
+cinza-fundo: #f7f7f7
+cinza-texto: #c6c6c6
+vermelho: #ee2211
+
+# Tipografia
+
+fonte: Arial
+parágrafos: 20px
+Vantagens Bikcraft: 64px
+
+# Tamanhos
+
+conteúdo principal: máximo 1000px */
+
+
+body{
+  font-family: Arial;
+}
+
+.logo{
+  display: grid;
+  justify-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+
+/* Menu */
+.flex ul{
+  list-style-type: none;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
+.flex a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Seção Bicicleta */
+.grid-section{
+  display: grid;
+  gap: 20px;
+  margin-top: 50px;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  align-items: center;
+  justify-items: end;
+}
+
+div.conteudo{
+  text-align: end;
+  margin-right: 20px;
+}
+
+.sobre-bicicleta img{
+  max-width: 100%;
+  display: block;
+}
+
+.sobre-bicicleta .retangulo{
+  position: relative;
+}
+
+.sobre-bicicleta .retangulo::before{
+  content: ' ';
+  position: absolute;
+  background-color: #ee2211 ;
+  width: 54px;
+  left: -27px;
+  height: 3px;
+  top: 30px;
+}
+
+.sobre-bicicleta p{
+  font-size: 20px;
+  align-items: center;
+}
+
+.sobre-bicicleta a{
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ee2211;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+
+/* Seção Bikecraft */
+h1.titulo{
+  text-align: end;
+  color: #c6c6c6;
+  font-size: 64px;
+}
+
+.sobre-lista dt{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.sobre-lista dd{
+  margin-bottom: 30px;
+}
+
+.sobre-lista .icone{
+  position: relative;
+  top: 8px;
+  right: 10px;
+  
+}
+
+
